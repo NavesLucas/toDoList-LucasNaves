@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="css/filecss.css">
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Lista de Tarefas</a>
+          </div>
+        </div>
+      </div>
+      <br><br><br><br><br>
+    <div class="container" align="center">
+      <div class="jumbotron">
+        <h1>Lista de tarefas </h1>
+        <p>Bem vindo a sua lista de tarefas</p>
+      </div>
+    </div>
+    <div class="container" align="center">
+      <div class="form-group">
+        <label class="col-lg-3 control-label optional">Digite uma nova tarefa</label>
+        <div class="col-lg-7">
+          <input type="text" id="task" placeholder="Tarefa..." class="form-control teste" required="">
+        </div><br><br>
+      <button class="btn btn-primary">Adicionar</button>
+      </div>
+      <div class="form-group">
+        <h3>Tarefas a fazer </h3>
+        <ul id="incomplete-tasks" class="container2"></ul>
+        <h3>Tarefas efetuadas</h3>
+        <ul id="completed-tasks" class="container2"></ul>
+      </div>
+    </div><br><br><br><br><br><br>
+    <script src="js/filejs.js"></script>
+  </body>
+</html>
